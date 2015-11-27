@@ -84,10 +84,6 @@ class MiniDump
         return (bool)($this->flags & $flag);
     }
 
-    public function getStreamDirectory()
-    {
-        return $this->streamDirectory;
-    }
     public function getStream($streamType)
     {
         foreach ($this->streams as $stream) {
@@ -96,5 +92,9 @@ class MiniDump
                 return $stream;
             }
         }
+    }
+    public function getStreams()
+    {
+        return $this->streams;
     }
 }
