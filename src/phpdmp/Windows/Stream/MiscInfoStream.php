@@ -6,7 +6,6 @@ use phpdmp\Windows\Enumeration\MiniDumpMiscInfoFlags;
 
 class MiscInfoStream extends Stream
 {
-    private $miscInfoStreamType;
     public function __construct($streamData)
     {
         parent::__construct($streamData);
