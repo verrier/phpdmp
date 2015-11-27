@@ -1,0 +1,22 @@
+{
+    "name": "verrier/phpdmp",
+    "description": "A PHP library to view windows DMP files",
+    "authors": [
+        {
+            "name": "Stephen Flannery",
+            "email": "stephen@jazer.com"
+        }
+    ],
+    "require": {
+    	"php-64bit": ">=5.6.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "phpdmp\\Windows\\MiniDump": "src/",
+            "phpdmp\\Windows\\Stream\\": "src/",
+            "phpdmp\\Windows\\Enumeration\\StreamType": "src/",
+            "phpdmp\\Windows\\Enumeration\\MiniDumpType": "src/",
+            "phpdmp\\Windows\\Enumeration\\MiniDumpMiscInfoFlags": "src/"
+        }
+    }
+}
