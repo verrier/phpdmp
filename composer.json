@@ -12,11 +12,7 @@
     },
     "autoload": {
         "psr-0": {
-            "phpdmp\\Windows\\MiniDump": "src/",
-            "phpdmp\\Windows\\Stream\\": "src/",
-            "phpdmp\\Windows\\Enumeration\\StreamType": "src/",
-            "phpdmp\\Windows\\Enumeration\\MiniDumpType": "src/",
-            "phpdmp\\Windows\\Enumeration\\MiniDumpMiscInfoFlags": "src/"
+            "phpdmp\\": "src/"
         }
     }
 }
